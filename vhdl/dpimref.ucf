@@ -1,0 +1,68 @@
+NET "mclk" LOC = "P54";
+NET "mclk" CLOCK_DEDICATED_ROUTE = FALSE;
+
+#NET "astb" LOC = "F2";
+#NET "dstb" LOC = "F1";
+#NET "pwr"   LOC = "C2";
+#NET "pwait" LOC = "D2";
+#NET "pdb(0)" LOC = "N2";
+#NET "pdb(1)" LOC = "M2";
+#NET "pdb(2)" LOC = "M1";
+#NET "pdb(3)" LOC = "L1";
+#NET "pdb(4)" LOC = "L2";
+#NET "pdb(5)" LOC = "H2";
+#NET "pdb(6)" LOC = "H1";
+#NET "pdb(7)" LOC = "H3";
+ NET "astb"   LOC = "P125"; # Bank = 0, Pin name = IO_L5P_0/GCLK14,    Sch name = U-FLGA
+ NET "dstb"   LOC = "P124"; # Bank = 0, Pin name = IO/VREF_0,          Sch name = U-FLGB
+# NET "UsbFlag"   LOC = "P123"; # Bank = 0, Pin name = IO_L4N_0/GCLK13,    Sch name = U-FLGC
+ NET "pwait"   LOC = "P105"; # Bank = 1, Pin name = IO_L10P_1/LDC1,     Sch name = U-SLRD
+ NET "pdb<0>"  LOC = "P142"; # Bank = 0, Pin name = IO_L10P_0,          Sch name = U-D0
+ NET "pdb<1>"  LOC = "P140"; # Bank = 0, Pin name = IO_L9N_0,           Sch name = U-D1
+ NET "pdb<2>"  LOC = "P139"; # Bank = 0, Pin name = IO_L9P_0,           Sch name = U-D2
+ NET "pdb<3>"  LOC = "P135"; # Bank = 0, Pin name = IO_L8N_0/VREF_0,    Sch name = U-D3
+ NET "pdb<4>"  LOC = "P134"; # Bank = 0, Pin name = IO_L8P_0,           Sch name = U-D4
+ NET "pdb<5>"  LOC = "P132"; # Bank = 0, Pin name = IO,                 Sch name = U-D5
+ NET "pdb<6>"  LOC = "P131"; # Bank = 0, Pin name = IO_L7N_0/GCLK19,    Sch name = U-D6
+ NET "pdb<7>"  LOC = "P130"; # Bank = 0, Pin name = IO_L7P_0/GCLK18,    Sch name = U-D7
+#NET "rgLed(7)" LOC = "G1" ;
+#NET "rgLed(6)" LOC = "P4" ;
+#NET "rgLed(5)" LOC = "N4" ;
+#NET "rgLed(4)" LOC = "N5" ;
+#NET "rgLed(3)" LOC = "P6" ;
+#NET "rgLed(2)" LOC = "P7" ;
+#NET "rgLed(1)" LOC = "M11" ;
+#NET "rgLed(0)" LOC = "M5" ;
+ NET "rgLed<0>"    LOC = "P15"; # Bank = 3, Pin name = IO_L4N_3/GCLK21      Sch name = LD0
+ NET "rgLed<1>"    LOC = "P14"; # Bank = 3, Pin name = IO_L4P_3/GCLK20      Sch name = LD1
+ NET "rgLed<2>"    LOC = "P8";  # Bank = 3, Pin name = IO_L3N_3,            Sch name = LD2
+ NET "rgLed<3>"    LOC = "P7";  # Bank = 3, Pin name = IO_L3P_3,            Sch name = LD3
+ NET "rgLed<4>"    LOC = "P5";  # Bank = 3, Pin name = IO_L2N_3/VREF_3,     Sch name = LD4
+ NET "rgLed<5>"    LOC = "P4";  # Bank = 3, Pin name = IO_L2P_3,            Sch name = LD5
+ NET "rgLed<6>"    LOC = "P3";  # Bank = 3, Pin name = IO_L1N_3,            Sch name = LD6
+ NET "rgLed<7>"    LOC = "P2";  # Bank = 3, Pin name = IO_L1P_3,            Sch name = LD7
+#NET "rgSwt(7)" LOC = "N3";
+#NET "rgSwt(6)" LOC = "E2";
+#NET "rgSwt(5)" LOC = "F3";
+#NET "rgSwt(4)" LOC = "G3";
+#NET "rgSwt(3)" LOC = "B4";
+#NET "rgSwt(2)" LOC = "K3";
+#NET "rgSwt(1)" LOC = "L3";
+#NET "rgSwt(0)" LOC = "P11";
+ NET "rgSwt<0>"     LOC = "P38"; # Bank = 2, Pin name = IP,                  Sch name = SW0
+ NET "rgSwt<1>"     LOC = "P36"; # Bank = 3, Pin name = IP,                  Sch name = SW1
+ NET "rgSwt<2>"     LOC = "P29"; # Bank = 3, Pin name = IO(3S100E)/IP(3S250E),Sch name = SW2
+ NET "rgSwt<3>"     LOC = "P24"; # Bank = 3, Pin name = IP                   Sch name = SW3
+ NET "rgSwt<4>"     LOC = "P18"; # Bank = 3, Pin name = IP,                  Sch name = SW4
+ NET "rgSwt<5>"     LOC = "P12"; # Bank = 3, Pin name = IP/VREF_3,           Sch name = SW5
+ NET "rgSwt<6>"     LOC = "P10"; # Bank = 3, Pin name = IO(3S100E)/IP(3S250E),Sch name = SW6
+ NET "rgSwt<7>"     LOC = "P6";  # Bank = 3, Pin name = IP,                  Sch name = SW7
+
+#NET "rgBtn(3)" LOC = "A7";
+#NET "rgBtn(2)" LOC = "M4";
+#NET "rgBtn(1)" LOC = "C11";
+#NET "rgBtn(0)" LOC = "G12"; # Bank = 0, Signal name = BTN0
+ NET "rgBtn<0>"    LOC = "P69"; # Bank = 2, Pin name = IP,                   Sch name = BTN0
+ NET "rgBtn<1>"    LOC = "P48"; # Bank = 2, Pin name = IP_L3N_2/VREF_2       Sch name = BTN1
+ NET "rgBtn<2>"    LOC = "P47"; # Bank = 2, Pin name = IP_L3P_2,             Sch name = BTN2
+ NET "rgBtn<3>"    LOC = "P41"; # Bank = 2, Pin name = IP,                   Sch name = BTN3

@@ -1,0 +1,9 @@
+﻿Build started 22/11/2019 13:48:59.
+     1>Project "c:\dev\depp\depp\depp.vcxproj" on node 2 (clean target(s)).
+     1>_PrepareForClean:
+         Deleting file "c:\dev\depp\bin\Win32\Debug\obj\depp.lastbuildstate".
+     1>Done Building Project "c:\dev\depp\depp\depp.vcxproj" (clean target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.14
